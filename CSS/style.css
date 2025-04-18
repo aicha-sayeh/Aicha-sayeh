@@ -57,4 +57,13 @@ h1 {
   background-color: #0084b4;
 }
 
-
+.card-white {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: center;
+}

@@ -1,1 +1,25 @@
+/* Make sure body takes the full viewport and background scales correctly */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/profile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Optional content styling */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    backdrop-filter: brightness(0.6);
+    height: 100vh;
+}
 

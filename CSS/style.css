@@ -1,25 +1,60 @@
-/* Make sure body takes the full viewport and background scales correctly */
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url('../Images/profile.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
-    font-family: Arial, sans-serif;
-    color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('../Images/profile.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
 }
 
-/* Optional content styling */
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-    backdrop-filter: brightness(0.6);
-    height: 100vh;
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  margin: 5% auto;
+  max-width: 600px;
+  border-radius: 20px;
+  text-align: center;
 }
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 0.5rem 0;
+}
+
+.emoji {
+  font-size: 1.5rem;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00aced;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0084b4;
+}
+
 
